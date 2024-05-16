@@ -20,6 +20,8 @@
 
 ### Interface 
 - Após rodar o projeto, o terminal será limpo e aparecerá um menú com 7 opções de escolha.
+![Captura de tela 2024-05-16 200441](https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/a4bc86be-6fb7-4cb6-8ca9-50a32a412871)
+
 - A escolha de 1 a 6 mostrará o cardápio do seu respectivo restaurante, já a 7 encerra o programa.
 - Quando escolher o restaurante, a tela será limpa e mostrará o cardápio do restaurante.
 - Na parte inferior da tela, terá uma aba para voltar ao menu, onde é necessário apenas clicar "Enter" para voltar.
