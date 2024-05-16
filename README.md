@@ -32,5 +32,5 @@
 
 - Na parte inferior da tela, terá uma aba para voltar ao menu, onde é necessário apenas clicar "Enter" para voltar.
 <div align = "center">
-    <img src = 
+    <img src = "https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/ce6d4a51-d6a6-40c6-ae29-85274bbb7653">
 </div>
