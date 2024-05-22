@@ -44,7 +44,7 @@
     <img src = "https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/23563f6d-633c-4352-b452-a6e29ce2ea1e" widt = 250px, height = 400px/>
 </div>
 
-- Dessa forma, poderá navegar entre os cardápios fácilmente!
+- Dessa forma, poderá navegar entre os cardápios facilmente!
 
 ## Estrutura do projeto
 - O projeto utilizou uma estrutura de pastas e arquivos que divide as funcionalidades das classes e da comunicação da API em diretórios separados, com o objetivo de deixar o código mais limpo!
@@ -120,7 +120,7 @@ um loop For para pegar cada item do restaurante na lista "dados_restaurante" (cr
     - Abaixo da declaração da função, são criados todos os objetos com seus respectivos nomes dos restaurantes. Após cada instânciamento, a função é chamada para adicionar os itens.
 
 - ### app.py
-    - Descrição: É o arquivo principal do projeto, que cria o menu de navegação para os cardápios.
+    - Descrição: É o arquivo principal do projeto, que cria o menú de navegação para os cardápios.
       
     <div align = "center">
         <br/>
