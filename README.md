@@ -10,7 +10,7 @@
 ## Dependências e Instalações
 - Para rodar a aplicação, é necessário ter instalado alguns pré-requisitos, conforme mostra abaixo: 
     - Interpretador do Python 3.12 ou posterior;
-    - Biblioteca utilizada: Entrar no escopo principal do projeto pelo terminal e colocar o seguinte comando: pip install -r requirements.txt
+    - Biblioteca utilizada: Entrar no escopo principal do projeto pelo terminal e colocar o seguinte comando: pip install -r requirements.txt .
       
 <div align = "center">
     <img src = "https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/52db4ea6-249c-4715-bd50-db6bf3fa1591" widt = 150px height = 150px/>
@@ -20,8 +20,8 @@
 
 ### Rodando o projeto
 - Para rodar o projeto, é necessário somente seguir esses passo:
-  - Entrar no escopo principal do projeto pelo terminal
-  - digitar o seguinte comando: python app.py
+  - Entrar no escopo principal do projeto pelo terminal;
+  - Digitar o seguinte comando: python app.py.
 
 ### Interface 
 - Após rodar o projeto, o terminal será limpo e aparecerá um menú com 7 opções de escolha.
@@ -104,4 +104,30 @@ nesse diretório.
        
         - Método listar_itens: Método getter que mostra todos os itens do cardápio do restaurante de modo formatado na tela, para facilitar a visualização.
 
+- ### CreateClasses.py
+    - Descrição: É um arquivo que serve para instânciar as classes nos objetos de cada restaurante da API e alocar os itens de cada restaurante dentro dos objetos.
       
+    <div align = "center">
+        <br/>
+        <img src = "https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/d7b81afa-7743-4904-a8f8-0718f13e8b9f" height = "500px"/>
+    </div>
+
+    - A API retorna itens de 6 restaurantes diferentes, sendo eles: McDonald’s, Pizza Hut, Taco Bell, KFC, Wendy’s e Burger King.
+ 
+    - Então, foi criado a função "adicionarItens" que recebe um objeto como parâmetro. Ela pega o atributo "nome" do objeto (que precisa ser uma instância da classe "Restaurante") e cria
+um loop For para pegar cada item do restaurante na lista "dados_restaurante" (criado no diretório /API/DataCollect.py) e chama o método "adicionar_item" do objeto para incrementar  cada informação do item do loop.
+ 
+    - Abaixo da declaração da função, são criados todos os objetos com seus respectivos nomes dos restaurantes. Após cada instânciamento, a função é chamada para adicionar os itens.
+
+- ### app.py
+    - Descrição: É o arquivo principal do projeto, que cria o menu de navegação para os cardápios.
+      
+    <div align = "center">
+        <br/>
+        <img src = "https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/689b3b0a-b41d-4313-8f18-ca614440eded" height = "500px"/>
+    </div>
+
+     - Nesse arquivo é criado a função "listar_cardapio" que recebe um objeto como parâmetro. Ela é responsável por formatar a tela e mostrar o cardápio do restaurante selecionado pelo usuário.
+
+     - Abaixo da função, temos um menú de escolhas (1 a 7) dentro de um loop While True, que mostra o cardápio do restaurante escolhido e finaliza quando a opção 7 for selecionada. 
+
