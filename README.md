@@ -77,7 +77,7 @@
         
         - Agora pertencem a uma lista que separa os itens por restaurantes: 
             <div align = "center">
-                <img src = "https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/a9c23cad-1906-41dc-820c-d14cfca5bf3f"/>
+                <img src = "https://github.com/Martins015/Cardapio-Restaurantes/assets/112978196/ad5c7d04-3b09-4ca0-8d50-3cd89723ee4a"/>
             </div>
     
         - Assim tornando mais fácil a tratativa de dados em outros arquivos!
